@@ -1,0 +1,170 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Professional & Data Driven SEO Expert - Shoaib Santo</title>
+    <meta name="description" content="Shoaib Santo, top SEO & digital marketing expert in Bangladesh, driving online growth with proven strategies for success.">
+    <meta name="robots" content="index, follow">
+
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/shoaibsanto-logo.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/shoaibsanto-logo.png' %}">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="{% static 'index.html' %}">
+                            <img style="width: 50px !important;" src="{% static 'images/shoaibsanto-logo.png' %}" alt="Logo">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        {% block content %}
+            
+        {% endblock %}
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                        Shoaib Santo, a top SEO expert in Bangladesh with 5+ years of experience, has worked with leading brands and agencies, offering data-driven strategies for exceptional results. Let's collaborate!
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.facebook.com/shoaibsantobd/">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/c/ShoaibSanto">YouTube</a></li>
+                                <li><a href="https://linkedin.com/in/shoaibsanto">LinkedIn</a></li>
+                                <li><a href="https://www.pinterest.com/shoaibsanto/">Pinterest</a></li>
+                                <li><a href="https://www.tiktok.com/@shoaibsantobd">TikTok</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:santosarker00@gmail.com">santosarker00@gmail.com</a></li>
+                                <li><a href="tel:+8801703966550">+880 17039 66550</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:santosarker00@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="https://docs.google.com/document/d/1PTyyV6VQEro-WkxxM8RT87jh5Triy99VheMjvAKUY_w/edit?usp=sharing" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright 2024</span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
