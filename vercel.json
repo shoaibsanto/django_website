@@ -1,8 +1,19 @@
 {
     "builds": [
       {
-        "src": "shoaiibsanto/wsgi.py",
-        "use": "@vercel/python"
+        "src": "shoaibsanto/wsgi.py",
+        "use": "@vercel/python",
+        "config": {
+          "maxLambdaSize": "15mb",
+          "runtime": "python3.9"
+        }
+      },
+      {
+        "src": "build_files.sh",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "staticfiles"
+        }
       }
     ],
     "routes": [
@@ -12,7 +23,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "shoaiibsanto/wsgi.py"
+        "dest": "shoaibsanto/wsgi.py"
       }
     ]
   }
